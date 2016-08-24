@@ -25,3 +25,14 @@ git checkout my-branch
 git rebase develop
 git push origin my-branch
 ```
+
+## Reset
+Reset to local version
+```
+git reset --hard
+```
+
+Reset to GitHub's version of `develop`:
+```
+git reset --hard origin/develop
+```
